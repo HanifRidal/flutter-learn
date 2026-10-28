@@ -6,7 +6,7 @@ class Pokemon2 extends StatelessWidget {
 
   final List<PokemonModel> listPokemon = [
     PokemonModel('Bullbasaur', 'images/bullbasaur.png'),
-    PokemonModel('Charmader', 'images/charmader.png'),
+    PokemonModel('Charmander', 'images/charmander.png'),
     PokemonModel('Eevee', 'images/eevee.png'),
     PokemonModel('Pidgey', 'images/pidgey.png'),
     PokemonModel('Pikachu', 'images/pikachu.png'),
