@@ -1,4 +1,5 @@
-import 'package:belajar_app/src/pokemon.dart';
+import 'package:belajar_app/src/page/pokemon.dart';
+import 'package:belajar_app/src/page/pokemon2.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyNewApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue, brightness: Brightness.light,),
       ),
-      home: Pokemon(),
+      home: Pokemon2(),
     );
   }
 }

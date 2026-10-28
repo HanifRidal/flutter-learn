@@ -33,6 +33,9 @@ class Pokemon extends StatelessWidget {
       appBar: AppBar(
         title: Text("Samsul Malas App"),
       ),
+      // body: Container(
+      //   child: Image.asset("images/zubat.png"),
+      // ),
       body: ListView.builder(
           itemCount: listPokemon.length,
             itemBuilder: (context, index) {
